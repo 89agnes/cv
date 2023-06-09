@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: Georgia, sans-serif;
+    background-image: url(./image/pexels-eberhard-grossgasteiger-2310713.jpg);
+}
+
+section {
+    min-height: 5vh;
+    background-image: url(./image/pexels-eberhard-grossgasteiger-2310713.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    left: 20px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+header .logo {
+    color: #145cbb;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+header ul li a {
+    text-decoration: 500;
+    color: #145cbb;
+    padding: 8px 15px;
+    border-radius: 25px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background: rgb(255, 254, 254);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    position: relative;
+    object-position: 60%;
+    width: calc(100% - 70px);
+    min-height: calc(200vh - 250px);
+    min-height: 250px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px;
+    margin-left: 28px;
+}
+
+.gallery {
+    margin: 50px 50px;
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.gallery img {
+    width: 300px;
+    height: 300px;
+    object-position: center;
+    border: 2px solid #eee;
+    box-shadow: 2px 3px 4px #ddd;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+table {
+    position: relative;
+    margin-left: 15%;
+    color: rgb(37, 37, 65);
+    margin-bottom: 10%;
+}
+
+.gallery h2 {
+    color: rgb(15, 15, 139);
+    margin-left: 400px;
+}
+
+.copyrightText {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    color: #666566;
+}
+
+.footer {
+    position: absolute;
+    width: 100vw;
+    background: rgb(247, 246, 246);
+    text-align: center;
+}

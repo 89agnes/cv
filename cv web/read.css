@@ -1,0 +1,142 @@
+* {
+    padding: 0px;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+section {
+    min-height: 80vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    object-position: 60%;
+    width: calc(100% - 70px);
+    min-height: calc(200vh - 200px);
+    min-height: 200px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px;
+    margin-left: 28px;
+}
+
+.about {
+    width: 100%;
+    padding: 20px 0px;
+    background: #a2d9ff;
+}
+
+.about-text {
+    width: 500px;
+    position: relative;
+    width: calc(100% - 100px);
+    min-height: calc(300vh - 380px);
+    min-height: 100px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.about-text h2 {
+    color: rgb(21, 57, 78);
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    margin-left: 5px;
+}
+
+.about-text h3 {
+    color: rgb(24, 24, 24);
+    font-size: 25px;
+    text-decoration: solid;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.about-text h5 {
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    text-decoration: solid;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+span {
+    color: rgb(123, 123, 250);
+}
+
+.about-text p {
+    color: rgb(48, 45, 45);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.sci ul {
+    position: relative;
+    top: 95px;
+    left: 20px;
+    display: grid;
+    box-shadow: 0 25px 45px rgba(49, 49, 49, 0.05);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.sci ul h2 {
+    color: rgb(21, 57, 78);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 36px;
+}
+
+.sci ul li {
+    margin-left: 25px;
+}
+
+table {
+    position: relative;
+    margin-left: 20%;
+    color: rgb(37, 37, 65);
+    margin-bottom: 30px;
+}
+
+.title h2 {
+    position: relative;
+    margin-left: 50%;
+    color: darkblue;
+    margin-bottom: 30px;
+    margin-top: -60px;
+}
+
+.copyrightText {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    color: #666566;
+}
+
+.footer {
+    position: absolute;
+    width: 100vw;
+    background: rgb(247, 246, 246);
+    text-align: center;
+}
